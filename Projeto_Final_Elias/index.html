@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Login</title>
+	<meta charset=UTF-8>
+	<meta name=description content="Teste">
+	<meta name=keywords content="HTML,CSS">
+	<meta name=author content="Elias Shap.">
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon.ico"/>
+	<link rel=stylesheet type=text/css href=css/index.css>
+
+</head>
+
+<body>
+<table class=foto><tr><td align="center" valign="middle">
+	<form name=formulario action=index2.html method=POST onsubmit="return validar();">
+		<table>
+			<tr>
+				<th colspan=2><img src="img/logored.png"> 	<br><br><br></th>
+			</tr>
+		
+			<tr>
+				<th>User:</th>	
+				<td><input type=text class=x name=username id=username size=20 maxlength=30 required></td>
+			</tr>
+			<tr>
+				<th>Password:<br><br></th>
+				<td><input type=password class=x name=password id=password size=20 maxlength=30 required><br><br></td>
+			</tr>
+			<tr>
+				<th>Email:</th><br><br><br><br>
+				<td><input type=email class=x name=email id=email pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size=20 maxlength=30 required></td>
+			</tr>
+			<tr>
+				<br><br><td colspan=2><input type="submit" value="Login" id="submit" class=botoes></td>
+			</tr>
+		</table>
+		<input type=hidden name=utilizador id=utilizador>
+		<input type=hidden name=pass id=pass>
+	</form>
+</td></tr></table>	
+</body>
+	<script src="js/validar.js"></script>
+
+</html>

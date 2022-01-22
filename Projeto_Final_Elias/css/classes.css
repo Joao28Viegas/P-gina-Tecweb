@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/2003.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 143px;
+  background-size: cover;
+  background-position:top;
+}
+header {
+  
+  padding: 20px;
+  text-align: center;
+}
+section{
+	width:90%;
+	margin:auto;
+	
+	text-align:center;
+	transition: 0.5s;
+}
+
+
+
+table {
+  border-collapse: auto;
+  background-color: #000000;
+  color:black;
+  
+}
+
+ th,td {
+  
+  padding: 8px;
+  background-color:#cccccc;
+  text-align:center;
+}
+a{
+	color:#000000;
+	
+}
+
+

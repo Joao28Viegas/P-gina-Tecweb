@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/background.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 143px;
+  background-size: cover;
+  background-position:top;
+  
+}
+header {
+  padding: 20px;
+  text-align: center;
+}
+section{
+	width:90%;
+	margin:auto;
+	transition: 0.5s;
+	text-align:center;
+}
+
+
+
+footer {
+	text-align:center;
+	margin:auto;
+	position: fixed;
+	background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+	font-family:Trebuchet MS;
+}
+
+video{
+	margin:auto;
+	display:block;
+	align-content:center;
+	width:73%;
+}
